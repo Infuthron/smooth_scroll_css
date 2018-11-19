@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    padding: 2em 2em 2em 9em;
+    display: grid;
+    justify-content: center;
+}
+

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    padding: 1em;
+    background-color: lightgray;
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ccc;
+    background-color: #333;
+    text-decoration: none;
+    display: block;
+    padding: .5em 1.5em .5em 1.5em;
+    margin: .5em 0;
+    border-left: 5px solid transparent;
+    border-radius: 0 2em 2em 0;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    background-color: #000;
+    border-left: 5px solid whitesmoke;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#red {background-color: red}
+#yellow {background-color: yellow}
+#blue {background-color: blue}
+#green {background-color: green}
+#orange {background-color: orange}
